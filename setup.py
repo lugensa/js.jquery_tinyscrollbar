@@ -32,7 +32,7 @@ setup(
     license='BSD',
     packages=find_packages(),namespace_packages=['js'],
     include_package_data=True,
-    url='https://bitbucket.org/gocept/js.jquery_tinyscrollbar',
+    url='https://github.com/gocept/js.jquery_tinyscrollbar',
     zip_safe=False,
     install_requires=[
         'fanstatic',

@@ -6,6 +6,8 @@ CHANGES
 
 - Nothing changed yet.
 
+- Migrate to Github.
+
 
 1.67 (2012-08-03)
 =================
