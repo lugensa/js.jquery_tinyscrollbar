@@ -1,0 +1,14 @@
+[run]
+branch = True
+source = js.jquery_tinyscrollbar
+
+[report]
+precision = 2
+
+[html]
+directory = coverage-report
+
+[paths]
+source =
+   js/jquery_tinyscrollbar
+   .tox/*/lib/python*/site-packages/js/jquery_tinyscrollbar

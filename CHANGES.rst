@@ -4,8 +4,6 @@ CHANGES
 1.68 (unreleased)
 =================
 
-- Nothing changed yet.
-
 - Migrate to Github.
 
 

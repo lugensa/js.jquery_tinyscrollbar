@@ -10,15 +10,19 @@ import os
 
 version = '1.68.dev0'
 
+
 def read(*rnames):
-    return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
+    """Read file content."""
+    with open(os.path.join(os.path.dirname(__file__), *rnames))as f:
+        return f.read()
+
 
 long_description = (
-    read('README.txt')
+    read('README.rst')
     + '\n' +
-    read('js', 'jquery_tinyscrollbar', 'test_jquery_tinyscrollbar.txt')
+    read('js', 'jquery_tinyscrollbar', 'test_jquery_tinyscrollbar.rst')
     + '\n' +
-    read('CHANGES.txt'))
+    read('CHANGES.rst'))
 
 setup(
     name='js.jquery_tinyscrollbar',
@@ -30,7 +34,8 @@ setup(
     author='gocept Developers',
     author_email='mail@gocept.com',
     license='BSD',
-    packages=find_packages(),namespace_packages=['js'],
+    packages=find_packages(),
+    namespace_packages=['js'],
     include_package_data=True,
     url='https://github.com/gocept/js.jquery_tinyscrollbar',
     zip_safe=False,
@@ -38,10 +43,10 @@ setup(
         'fanstatic',
         'setuptools',
         'js.jquery'
-        ],
+    ],
     entry_points={
         'fanstatic.libraries': [
             'jquery_tinyscrollbar = js.jquery_tinyscrollbar:library',
-            ],
-        },
-    )
+        ],
+    },
+)
