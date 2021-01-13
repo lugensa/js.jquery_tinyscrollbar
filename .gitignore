@@ -6,6 +6,7 @@
 .installed.cfg
 .tox/
 bin
+coverage-report
 develop-eggs
 dist
 parts
