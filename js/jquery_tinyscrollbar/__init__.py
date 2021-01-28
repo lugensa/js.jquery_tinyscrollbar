@@ -1,6 +1,7 @@
 import fanstatic
 import js.jquery
 
+
 library = fanstatic.Library('jquery_tinyscrollbar', 'resources')
 
 jquery_tinyscrollbar = fanstatic.Resource(
@@ -9,3 +10,8 @@ jquery_tinyscrollbar = fanstatic.Resource(
     minified='jquery.tinyscrollbar.min.js',
     depends=[js.jquery.jquery]
 )
+
+
+__all__ = [
+    'jquery_tinyscrollbar',
+]
