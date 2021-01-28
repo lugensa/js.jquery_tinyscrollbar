@@ -7,4 +7,3 @@ You can import ``jquery_tinyscrollbar`` from ``js.jquery_tinyscrollbar`` and
 
   >>> from js.jquery_tinyscrollbar import jquery_tinyscrollbar
   >>> jquery_tinyscrollbar.need()
-

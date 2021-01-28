@@ -1,5 +1,7 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages
+from setuptools import setup
 import os
+
 
 # The version of the wrapped library is the starting point for the
 # version number of the python package.
