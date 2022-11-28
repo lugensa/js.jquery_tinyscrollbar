@@ -31,7 +31,12 @@ setup(
     version=version,
     description="Fanstatic packaging of jQuery Tiny Scrollbar",
     long_description=long_description,
-    classifiers=[],
+    classifiers=[
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+    ],
     keywords='',
     author='gocept Developers',
     author_email='mail@gocept.com',

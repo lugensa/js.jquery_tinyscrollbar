@@ -4,6 +4,10 @@ CHANGES
 1.68 (unreleased)
 =================
 
+- Drop support for Python 2.7.
+
+- Add support for Python 3.9, 3.10, 3.11.
+
 - Migrate to GitHub.
 
 - Use GitHub actions as CI.
